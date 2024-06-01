@@ -10,7 +10,8 @@ while displayed_numbers < 20 * 3:
     random_number = random.randint(1, 20)
 
     # Display the random number
-    print(f"{random_number}")
+    print(f"\t{random_number}")
+    print("_\n")
 
     # Add the number to the set
     displayed_numbers += 1
